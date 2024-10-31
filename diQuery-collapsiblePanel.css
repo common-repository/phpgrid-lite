@@ -1,0 +1,37 @@
+﻿
+.collapsibleContainer
+{
+    border: solid 1px #9BB5C1;
+	margin:10px;
+
+}
+.collapsibleContainerTitle
+{
+    cursor:pointer;
+}
+
+.collapsibleContainerTitle div
+{
+
+	font-size: 18px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left:30px;
+    color:#607882;
+	
+	
+}
+.box_open
+{
+	background: url("pointer.png") no-repeat 0 bottom #9BB5C1;
+
+}
+.box_close
+{
+	background:#9BB5C1 url("pointer.png") no-repeat 0 0;
+
+}
+.collapsibleContainerContent
+{
+    padding: 10px;
+}
